@@ -1,4 +1,4 @@
-pragma solidity ^0.5.9;
+pragma solidity ^7.0.2;
 contract Auction {
     
     // Data
@@ -50,6 +50,7 @@ contract Auction {
         bidders[bidderCount].personId = bidderCount;
         
         //Part 1 Task 3. Initialize the address of the bidder 
+
         /*Hint. Here the bidders[bidderCount].addr should be initialized with address of the registrant.*/
 
         // ** Start code here. 1 line approximately. **/
